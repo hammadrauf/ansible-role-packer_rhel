@@ -2,8 +2,8 @@
 dependencies: []
 
 galaxy_info:
-  role_name: packer_rhel
-  author: geerlingguy
+  role_name: ansible-role-packer_rhel
+  author: hammadrauf, geerlingguy
   description: RedHat/CentOS configuration for Packer.
   company: "Midwestern Mac, LLC"
   license: "license (BSD, MIT)"
