@@ -8,6 +8,7 @@
   set_fact:
     packer_rhel_libselinux_package: python3-libselinux
   when: ansible_facts['ansible_distribution_major_version'] | int >= 8
+  
 
 - name: Ensure necessary packages are installed.
   yum:
