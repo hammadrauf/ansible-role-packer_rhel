@@ -5,7 +5,7 @@ galaxy_info:
   role_name: ansible-role-packer_rhel
   author: hammadrauf, geerlingguy
   description: RedHat/CentOS configuration for Packer.
-  company: "Midwestern Mac, LLC"
+  company: "Home, Midwestern Mac, LLC"
   license: "license (BSD, MIT)"
   min_ansible_version: 2.4
   platforms:
