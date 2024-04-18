@@ -13,7 +13,7 @@ name: Release
 
 defaults:
   run:
-    working-directory: 'geerlingguy.packer_rhel'
+    working-directory: 'hammadrauf.ansible-role-packer_rhel'
 
 jobs:
 
@@ -24,7 +24,7 @@ jobs:
       - name: Check out the codebase.
         uses: actions/checkout@v4
         with:
-          path: 'geerlingguy.packer_rhel'
+          path: 'hammadrauf.ansible-role-packer_rhel'
 
       - name: Set up Python 3.
         uses: actions/setup-python@v5
