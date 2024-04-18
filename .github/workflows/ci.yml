@@ -10,7 +10,7 @@ name: CI
 
 defaults:
   run:
-    working-directory: 'geerlingguy.packer_rhel'
+    working-directory: 'hammadrauf.ansible-role-packer_rhel'
 
 jobs:
 
